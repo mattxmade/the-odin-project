@@ -13,7 +13,12 @@
 
 	// Edit between these lines
 	// =================================
-	result = "a" + "b";
+  
+  // Original
+	//result = "a" + "b";
+
+  // My solution | result was set to string instead of variables that hold number values
+  result = a + b;
 
 	// =================================
 
