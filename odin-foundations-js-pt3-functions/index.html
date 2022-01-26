@@ -40,6 +40,14 @@
     // Write a function called lastLetter that takes a string and returns the very last letter 
     // of that string:
     // lastLetter("abcd") should return "d"
+    function lastLetter(string) {
+      if ( typeof(string) === 'string') {
+        return string.substring(string.length - 1).toUpperCase();
+      }
+      else {
+        return 'Enter a string';
+      }
+    }
 
   </script>
 
