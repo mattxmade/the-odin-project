@@ -27,6 +27,14 @@
     // Write a function called capitalize that takes a string and returns that string 
     // with only the first letter capitalized. Make sure that it can take strings that are 
     // lowercase, UPPERCASE or both.
+    function capitalise(string) {
+      if ( typeof(string) === 'string') {
+        return string.substring(0,1).toUpperCase() + string.substring(1).toLowerCase();
+      }
+      else {
+        return 'Enter a string';
+      }
+    }
 
     // 04
     // Write a function called lastLetter that takes a string and returns the very last letter 
