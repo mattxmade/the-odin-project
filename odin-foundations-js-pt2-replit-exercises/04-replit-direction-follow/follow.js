@@ -49,13 +49,19 @@
 */
 
 // Edit below this line =============
-const birthYear = 1948;
-const thisYear = 1965;
+const testGroup = "b";
 const firstName = "Carlos";
 const lastName = "Stevenson";
+const thisYear = 1965;
+const birthYear = 1948;
 
-const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
+const fullName = firstName + " " + lastName;
+const age = thisYear - birthYear;
 
+let greeting = `Hello! My name is ${firstName} ${lastName} and I am ${thisYear - birthYear} years old.`;
+console.log(greeting);
+
+greeting = `Hello! My name is ${fullName} and I am ${age} years old.`;
 console.log(greeting);
 
 // Edit above this line ==============
