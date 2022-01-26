@@ -7,10 +7,20 @@
 
  number = Number(prompt("enter a number"));
 
- function numberChecker() {
-   if(number === 6) {
-     return true;
-   } else {
-     return false;
-   }
- }
+// Original
+//  function numberChecker() {
+//    if(number === 6) {
+//      return true;
+//    } else {
+//      return false;
+//    }
+//  }
+
+// My Soultion: Use more than or equal operator >=
+
+function numberChecker() {
+  if (number >= 10) {
+    return true;
+  }
+  else { return false }
+};
